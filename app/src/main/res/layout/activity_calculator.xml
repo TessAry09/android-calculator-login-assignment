@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/calc_bg"
+    android:orientation="vertical"
+    android:paddingLeft="14dp"
+    android:paddingTop="18dp"
+    android:paddingRight="14dp"
+    android:paddingBottom="16dp">
+
+    <TextView
+        android:id="@+id/expression_view"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:ellipsize="start"
+        android:gravity="end|center_vertical"
+        android:maxLines="1"
+        android:text="准备计算"
+        android:textColor="#A9ABB0"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/display_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:ellipsize="start"
+        android:gravity="end|bottom"
+        android:maxLines="1"
+        android:paddingBottom="12dp"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="52sp" />
+
+    <GridLayout
+        android:id="@+id/calculator_grid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.6"
+        android:alignmentMode="alignMargins"
+        android:columnCount="4"
+        android:rowCount="5"
+        android:useDefaultMargins="false">
+
+        <Button android:id="@+id/key_ac" style="@style/CalculatorKey.Light" android:text="AC" />
+        <Button android:id="@+id/key_sign" style="@style/CalculatorKey.Light" android:text="+/−" />
+        <Button android:id="@+id/key_percent" style="@style/CalculatorKey.Light" android:text="%" />
+        <Button android:id="@+id/key_divide" style="@style/CalculatorKey.Operator" android:text="÷" />
+
+        <Button android:id="@+id/key_7" style="@style/CalculatorKey" android:text="7" />
+        <Button android:id="@+id/key_8" style="@style/CalculatorKey" android:text="8" />
+        <Button android:id="@+id/key_9" style="@style/CalculatorKey" android:text="9" />
+        <Button android:id="@+id/key_multiply" style="@style/CalculatorKey.Operator" android:text="×" />
+
+        <Button android:id="@+id/key_4" style="@style/CalculatorKey" android:text="4" />
+        <Button android:id="@+id/key_5" style="@style/CalculatorKey" android:text="5" />
+        <Button android:id="@+id/key_6" style="@style/CalculatorKey" android:text="6" />
+        <Button android:id="@+id/key_subtract" style="@style/CalculatorKey.Operator" android:text="−" />
+
+        <Button android:id="@+id/key_1" style="@style/CalculatorKey" android:text="1" />
+        <Button android:id="@+id/key_2" style="@style/CalculatorKey" android:text="2" />
+        <Button android:id="@+id/key_3" style="@style/CalculatorKey" android:text="3" />
+        <Button android:id="@+id/key_add" style="@style/CalculatorKey.Operator" android:text="+" />
+
+        <Button
+            android:id="@+id/key_0"
+            style="@style/CalculatorKey"
+            android:layout_columnSpan="2"
+            android:layout_columnWeight="2"
+            android:gravity="center"
+            android:text="0" />
+        <Button android:id="@+id/key_decimal" style="@style/CalculatorKey" android:text="." />
+        <Button android:id="@+id/key_equals" style="@style/CalculatorKey.Operator" android:text="=" />
+    </GridLayout>
+</LinearLayout>

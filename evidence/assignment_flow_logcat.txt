@@ -1,0 +1,26 @@
+--------- beginning of main
+11-08 21:48:43.006  5136  5136 I ASSIGNMENT_FLOW: Sending explicit ordered ACTION_AUTH for student=2010813299
+11-08 21:48:43.048  5136  5136 I ASSIGNMENT_FLOW: Authentication failed: 账号或密码错误，请使用本地演示账号。
+11-08 21:49:14.870  5136  5136 I ASSIGNMENT_FLOW: Sending explicit ordered ACTION_AUTH for student=2010813299
+11-08 21:49:14.940  5136  5136 I ASSIGNMENT_FLOW: Authentication failed: 账号或密码错误，请使用本地演示账号。
+11-08 21:49:47.775  5688  5688 I ASSIGNMENT_FLOW: Sending explicit ordered ACTION_AUTH for student=2010813299
+11-08 21:49:47.800  5688  5688 I ASSIGNMENT_FLOW: 10-second background task START elapsed=210363
+11-08 21:49:57.930  5688  5688 I ASSIGNMENT_FLOW: 10-second background task END durationMs=10130
+11-08 21:49:58.047  5688  5688 I ASSIGNMENT_FLOW: Calculator opened with initial student display=2010813299
+11-08 21:50:41.335  5688  5688 I ASSIGNMENT_FLOW: Calculator AC pressed
+11-08 21:50:43.786  5688  5688 I ASSIGNMENT_FLOW: Calculator AC pressed
+11-08 21:50:44.627  5688  5688 I ASSIGNMENT_FLOW: Calculator AC pressed
+11-08 21:50:44.982  5688  5688 I ASSIGNMENT_FLOW: Calculation rejected: 除数不能为 0
+11-08 21:50:45.557  5688  5688 I ASSIGNMENT_FLOW: Calculator AC pressed
+11-08 21:51:00.522  5688  5688 I ASSIGNMENT_FLOW: Calculation completed: 50 + 50 = 100; opening HistoryActivity
+11-08 21:51:00.602  5688  5688 I ASSIGNMENT_FLOW: HistoryActivity opened with real result count=5
+11-08 21:51:14.742  5688  5688 I ASSIGNMENT_FLOW: History closed; ACTION_CALC_FINISHED sent once, M=100
+11-08 21:51:14.774  5688  5688 I ASSIGNMENT_FLOW: ACTION_CALC_FINISHED received; rebuilding login task, M=100
+11-08 21:53:02.354  6615  6615 I ASSIGNMENT_FLOW: Sending explicit ordered ACTION_AUTH for student=2010813299
+11-08 21:53:02.382  6615  6615 I ASSIGNMENT_FLOW: 10-second background task START elapsed=404946
+11-08 21:53:12.500  6615  6615 I ASSIGNMENT_FLOW: 10-second background task END durationMs=10117
+11-08 21:53:12.624  6615  6615 I ASSIGNMENT_FLOW: Calculator opened with initial student display=2010813299
+11-08 21:53:28.718  6615  6615 I ASSIGNMENT_FLOW: Calculation completed: 1 + 1 = 2; opening HistoryActivity
+11-08 21:53:28.816  6615  6615 I ASSIGNMENT_FLOW: HistoryActivity opened with real result count=1
+11-08 21:53:31.976  6615  6615 I ASSIGNMENT_FLOW: History closed; ACTION_CALC_FINISHED sent once, M=2
+11-08 21:53:31.980  6615  6615 I ASSIGNMENT_FLOW: ACTION_CALC_FINISHED received; rebuilding login task, M=2

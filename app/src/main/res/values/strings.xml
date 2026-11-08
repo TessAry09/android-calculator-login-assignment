@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">登录计算器</string>
+    <string name="login_title">Android 综合作业</string>
+    <string name="login_subtitle">广播鉴权 · 后台进度 · 计算历史</string>
+    <string name="student_id_hint">学号（10 位数字）</string>
+    <string name="password_hint">密码</string>
+    <string name="login">登录</string>
+    <string name="demo_hint">演示账号：2010813299 / 123456</string>
+    <string name="loading_title">鉴权成功，正在准备计算器</string>
+    <string name="loading_progress">后台任务进度：%1$d%%</string>
+    <string name="history_title">计算历史</string>
+    <string name="history_subtitle">以下每条记录均由本次真实计算产生</string>
+    <string name="finish_and_return">完成并返回登录</string>
+</resources>

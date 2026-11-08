@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="calc_bg">#101114</color>
+    <color name="key_dark">#333438</color>
+    <color name="key_dark_pressed">#5B5D63</color>
+    <color name="key_light">#B8B9BD</color>
+    <color name="key_light_pressed">#E4E5E7</color>
+    <color name="key_orange">#FF9F0A</color>
+    <color name="key_orange_pressed">#FFD08A</color>
+    <color name="brand_blue">#315DCE</color>
+    <color name="brand_blue_pressed">#2447A1</color>
+    <color name="surface">#F4F6FA</color>
+    <color name="text_primary">#1D2433</color>
+    <color name="text_secondary">#667085</color>
+    <color name="white">#FFFFFF</color>
+    <color name="danger">#C62828</color>
+</resources>
